@@ -13,6 +13,6 @@ function customWayPoint(className, addClassName, customOffset) {
 
 var defaultOffset = '50%';
 
-for (i = 0; i < 17; i++) {
+for (i = 0; i < 33; i++) {
   customWayPoint('.timeline__item--' + i, 'timeline__item-bg', defaultOffset);
 }

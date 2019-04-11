@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <title>广工丰茂</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  body,div {
+    box-sizing: border-box;
+  }
+  .show {
+    height: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+  }
+  .show img {
+    height: 100%;
+    float: left;
+  }
+  .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+</style>
+<body>
+  <div class="gdut">
+    <div><div class="show clearfix"><img src="./img/badge.png" alt="">阿克苏的贺卡上短松冈大咖秀就赶快IQ无人机阿大手笔，辐射大受打击哈空间电荷分开打好款发动机</div></div>
+    <div><div class="show clearfix"><img src="./img/图片1980.png" alt="">阿克苏的贺卡上短松冈大咖秀就赶快IQ无人机阿大手笔，辐射大受打击哈空间电荷分开打好款发动机</div></div>
+    <div><div class="show clearfix"><img src="./img/2017.png" alt="">阿克苏的贺卡上短松冈大咖秀就赶快IQ无人机阿大手笔，辐射大受打击哈空间电荷分开打好款发动机</div></div>
+  </div>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.gdut').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+    });
+  </script>
+</body>
+
+</html>

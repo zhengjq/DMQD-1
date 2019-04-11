@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>Simple Swiper App</title>
+
+	<link rel="stylesheet" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" href="css/idangerous.swiper.scrollbar.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/simple-app.css">
+</head>
+<style>
+	.page-inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.page-inner .images {
+		margin-bottom: 20px;
+	}
+	.page-inner .images img {
+		height: 350px;
+	}
+	.page-inner p {
+		width: 60%;
+	}
+</style>
+<body>
+	<div class="swiper-nav swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><span>60years</span></div>
+			<div class="swiper-slide"><span>About Us</span></div>
+			<div class="swiper-slide"><span>Gallery</span></div>
+			<div class="swiper-slide"><span>Services</span></div>
+			<div class="swiper-slide"><span>Contacts</span></div>
+		</div>
+	</div>
+	<div class="swiper-pages swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="swiper-container scroll-container">
+					<div class="swiper-scrollbar"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="page-inner">
+								<div class="images"><img src="img/60years.jpg" alt=""></div>
+								<p>11月10日，风叶露花，秋意渐浓。广东工业大学迎来了甲子华诞。校园里鲜花锦簇，彩旗招展，披上了节日的盛装。国内外嘉宾、校友、师生代表等欢聚一堂，共贺六秩盛典。
+</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="swiper-container scroll-container">
+					<div class="swiper-scrollbar"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="page-inner">
+									<div class="images"><img src="img/ESI.png" alt=""></div>
+									<p>2019年1月19日，科睿唯安(原汤森路透)发布最新ESI数据。广东工业大学化学学科在本次更新中,首次进入ESI学科全球排名前1%!
+截至目前,我校共有工程学、材料科学、计算机科学和化学四门学科进入ESI学科世界排名前1%。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="swiper-container scroll-container">
+					<div class="swiper-scrollbar"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="page-inner">
+									<div class="images"><img src="img/young.png" alt=""></div>
+									<p>我校选送作品获得2金1银3铜，以总分400分的好成绩捧得“优胜杯”，全省高校中位列第2！这是我校自2012年以来，连续四届在“创青春”全国大学生创业大赛（前身为“挑战杯”中国大学生创业计划竞赛）中摘得金奖。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="swiper-container scroll-container">
+					<div class="swiper-scrollbar"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="page-inner">
+									<div class="images"><img src="img/CUBA.png" alt=""></div>
+									<p>2018年11月26至12月30日，由中国大学生体育协会主办，广东省学生体育艺术联合会、华南师范大学和广东工业大学承办的第二十一届CUBA中国大学生篮球联赛球一级联赛（广东赛区）选拔赛在广东工业大学和华南师范大学举行。我校男子篮球队乙组在小组赛中以两胜一负的战绩获得小组赛第一名，又在交叉淘汰赛中战胜广州体育学院和汕头大学，最终捧起第二十一届CUBA广东赛区男子组冠军奖杯，实现五连冠。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="swiper-container scroll-container">
+					<div class="swiper-scrollbar"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="page-inner">
+									<div class="images"><img src="img/WeiLai.png" alt=""></div>
+									<p>“蔚来杯”2017中国大学生电动方程式大赛在湖北襄阳举行。广东工业大学FSAE车队以总成绩第一名，荣获全国总冠军。除了拿下总成绩第一的大奖，车队还获得效率测试奖第一名，轻量化大奖第三名，蔚来最佳电动力总成奖第三名，成本与制造分析奖第三名，Math Works车辆动力学仿真奖第三名以及最具影响力车队奖等奖项。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<!-- Don't forget to get the latest Swiper and scrollbar version here-->
+	<script src="js/idangerous.swiper-2.0.min.js"></script>
+	<script src="js/idangerous.swiper.scrollbar-2.0.js"></script>
+	<script src="js/simple-app.js"></script>
+</body>
+</html>
